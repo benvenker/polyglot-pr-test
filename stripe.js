@@ -9,7 +9,8 @@ const user = {
     firstName,
     lastName,
     email,
-    password
+    password,
+    birthday
 };
 
 const customer = await stripe.customers.create({
